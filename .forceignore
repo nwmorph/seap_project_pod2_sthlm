@@ -1,0 +1,25 @@
+# Seeded by SEAP heavy-build setup — the canonical SFDX .forceignore (what `sf project
+# generate` ships) so non-deployable companion files never reach the org compiler.
+# Reproduced live: __tests__ → LWC1702; jsconfig/.eslintrc → 'Invalid suffix: json'.
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC / Aura Jest tests (test-only imports the platform compiler rejects)
+**/__tests__/**
+**/*.test.js
+
+# Grounding retrieves land here (read-only org examples the agent inspects to learn a shape —
+# see RUNNER_HEAVY_DIRECTIVE: `sf project retrieve … --output-dir .read-scratch`). They are NOT
+# deliverables; excluding them keeps an org-existing Bot/GenAiPlugin/bundle out of the validated
+# + packaged tree even if a rehydrate/copy ever surfaces one under the project root.
+.read-scratch/**
+
+# Org object-inventory cache (the once-per-task `sf sobject list` census the agent greps
+# before authoring a net-new object). A read-only grounding artifact, never a deliverable —
+# excluded so it can never be swept into a source-dir validate or the packaged bundle.
+.org-cache/**
+
+node_modules/

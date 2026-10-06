@@ -1,0 +1,4 @@
+# Salesforce CLI local session / cache / scratch — machine-local, not source
+.sf/
+.sfdx/
+.read-scratch/
