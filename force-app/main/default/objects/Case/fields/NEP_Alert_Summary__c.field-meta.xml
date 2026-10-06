@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEP_Alert_Summary__c</fullName>
+    <label>Alert Summary</label>
+    <description>Plain-language summary carried over from the escalating NEP_SensorReading__c.Plain_Language_Summary__c.</description>
+    <type>LongTextArea</type>
+    <length>2000</length>
+    <visibleLines>5</visibleLines>
+    <trackHistory>false</trackHistory>
+</CustomField>

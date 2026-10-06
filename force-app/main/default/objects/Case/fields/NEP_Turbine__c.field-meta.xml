@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEP_Turbine__c</fullName>
+    <label>Turbine</label>
+    <description>Turbine Asset linked from the escalating NEP_SensorReading__c, when matched. Null for Cases raised from an unmatched reading.</description>
+    <type>Lookup</type>
+    <referenceTo>Asset</referenceTo>
+    <relationshipName>NEP_Escalation_Cases</relationshipName>
+    <relationshipLabel>NEP Escalation Cases</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

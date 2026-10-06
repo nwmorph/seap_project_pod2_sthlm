@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>NEP Risk Threshold Config</label>
+    <pluralLabel>NEP Risk Threshold Configs</pluralLabel>
+    <visibility>Public</visibility>
+    <description>Per-model (and UNMATCHED fallback) temperature/vibration thresholds consumed by NEPRiskScoringService. DeveloperName must align exactly with Asset.Model__c picklist values, plus the reserved UNMATCHED fallback row.</description>
+</CustomObject>

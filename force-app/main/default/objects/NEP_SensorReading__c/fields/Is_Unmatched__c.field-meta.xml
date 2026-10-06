@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Unmatched__c</fullName>
+    <label>Is Unmatched</label>
+    <description>True when TurbineId__c could not be resolved to exactly one Asset (no match or ambiguous match).</description>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <trackHistory>false</trackHistory>
+</CustomField>

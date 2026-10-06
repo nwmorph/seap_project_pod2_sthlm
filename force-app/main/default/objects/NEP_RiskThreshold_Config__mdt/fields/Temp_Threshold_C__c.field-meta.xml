@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temp_Threshold_C__c</fullName>
+    <label>Temp Threshold (C)</label>
+    <description>Temperature elevated when Temperature_C__c is strictly greater than this value.</description>
+    <type>Number</type>
+    <precision>6</precision>
+    <scale>2</scale>
+    <required>true</required>
+</CustomField>

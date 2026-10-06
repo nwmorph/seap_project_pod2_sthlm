@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEP_SensorReading__c</fullName>
+    <label>Sensor Reading</label>
+    <description>The High/Critical NEP_SensorReading__c that triggered this escalation Case.</description>
+    <type>Lookup</type>
+    <referenceTo>NEP_SensorReading__c</referenceTo>
+    <relationshipName>NEP_Escalation_Cases</relationshipName>
+    <relationshipLabel>NEP Escalation Cases</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

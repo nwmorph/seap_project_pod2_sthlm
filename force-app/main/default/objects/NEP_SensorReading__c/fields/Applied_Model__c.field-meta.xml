@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applied_Model__c</fullName>
+    <label>Applied Model</label>
+    <description>NEP_RiskThreshold_Config__mdt DeveloperName used at scoring time (point-in-time stamp; not re-derived if config changes later).</description>
+    <type>Text</type>
+    <length>40</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+</CustomField>

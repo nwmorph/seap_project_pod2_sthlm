@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TurbineId__c</fullName>
+    <label>Turbine Id (Raw)</label>
+    <description>Raw vendor turbine identifier as sent by the upstream integration. Retained even when the reading is unmatched.</description>
+    <type>Text</type>
+    <length>80</length>
+    <required>true</required>
+    <unique>false</unique>
+    <trackHistory>false</trackHistory>
+</CustomField>

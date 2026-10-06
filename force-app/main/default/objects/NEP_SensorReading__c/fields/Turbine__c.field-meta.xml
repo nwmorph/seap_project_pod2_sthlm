@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Turbine__c</fullName>
+    <label>Turbine</label>
+    <description>Matched turbine Asset, resolved by matching TurbineId__c against Asset.ExternalIdentifier. Null when unmatched or ambiguous.</description>
+    <type>Lookup</type>
+    <referenceTo>Asset</referenceTo>
+    <relationshipName>NEP_Sensor_Readings</relationshipName>
+    <relationshipLabel>NEP Sensor Readings</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

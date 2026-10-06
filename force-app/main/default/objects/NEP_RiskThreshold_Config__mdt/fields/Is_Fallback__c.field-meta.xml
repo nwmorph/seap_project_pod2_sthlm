@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Fallback__c</fullName>
+    <label>Is Fallback</label>
+    <description>True for the single row used when a reading is unmatched (or matched to an Asset with no recognised Model__c).</description>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>

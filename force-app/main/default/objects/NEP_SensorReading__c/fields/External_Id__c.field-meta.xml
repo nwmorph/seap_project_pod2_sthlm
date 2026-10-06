@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Id__c</fullName>
+    <label>External Id</label>
+    <description>Idempotent upsert anchor supplied by the upstream integration (recommended composition: TurbineId + Reading_Timestamp). Never generated or altered by this automation.</description>
+    <type>Text</type>
+    <length>255</length>
+    <required>true</required>
+    <unique>true</unique>
+    <caseSensitive>false</caseSensitive>
+    <externalId>true</externalId>
+    <trackHistory>false</trackHistory>
+</CustomField>

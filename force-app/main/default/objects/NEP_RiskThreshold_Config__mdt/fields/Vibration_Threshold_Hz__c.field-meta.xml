@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vibration_Threshold_Hz__c</fullName>
+    <label>Vibration Threshold (Hz)</label>
+    <description>Vibration elevated when Vibration_Hz__c is strictly greater than this value.</description>
+    <type>Number</type>
+    <precision>6</precision>
+    <scale>2</scale>
+    <required>true</required>
+</CustomField>

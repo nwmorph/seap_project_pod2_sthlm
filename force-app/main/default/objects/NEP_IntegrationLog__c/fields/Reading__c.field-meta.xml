@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reading__c</fullName>
+    <label>Reading</label>
+    <description>The NEP_SensorReading__c this log entry pertains to, when available.</description>
+    <type>Lookup</type>
+    <referenceTo>NEP_SensorReading__c</referenceTo>
+    <relationshipName>NEP_Integration_Logs</relationshipName>
+    <relationshipLabel>NEP Integration Logs</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temperature_C__c</fullName>
+    <label>Temperature (C)</label>
+    <description>Raw temperature reading in Celsius, as sent by the upstream integration.</description>
+    <type>Number</type>
+    <precision>6</precision>
+    <scale>2</scale>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+</CustomField>

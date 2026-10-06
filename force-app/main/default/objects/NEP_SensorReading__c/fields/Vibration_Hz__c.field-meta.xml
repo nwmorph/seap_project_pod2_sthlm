@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vibration_Hz__c</fullName>
+    <label>Vibration (Hz)</label>
+    <description>Raw vibration reading in Hz, as sent by the upstream integration.</description>
+    <type>Number</type>
+    <precision>6</precision>
+    <scale>2</scale>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+</CustomField>
